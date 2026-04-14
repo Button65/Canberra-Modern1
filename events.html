@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canberra Modern - Events</title>
+   <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="home.html">
+            <img src="images/logo.png" alt="Canberra Modern Logo" class="header-logo">
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="header-nav">
+            <a href="home.html">About</a>
+            <a href="explore.html">Explore</a>
+            <a href="events.html">Events</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" onclick="toggleMobileMenu()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+
+        <!-- Mobile Dropdown Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="home.html" onclick="toggleMobileMenu()">About</a>
+            <a href="explore.html" onclick="toggleMobileMenu()">Explore</a>
+            <a href="events.html" onclick="toggleMobileMenu()">Events</a>
+            <a href="get-involved.html" onclick="toggleMobileMenu()">Get Involved</a>
+            <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+        </div>
+
+        <!-- Search Icon -->
+        <div class="search-icon">
+            <svg viewBox="0 0 60 60" fill="none">
+                <circle cx="30" cy="30" r="28" fill="white" stroke="black" stroke-width="4"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Events Hero Section -->
+        <section class="events-hero">
+            <h1 class="events-heading">Events</h1>
+
+            <div class="events-intro">
+                <ul>
+                    <li>Craft & Design Festival</li>
+                    <li>Canberra Region Heritage Festival.</li>
+                </ul>
+                <p>Including Tours, Exhibitions, Talks & Lectures</p>
+            </div>
+
+            <h2 class="events-subheading">Upcoming Events</h2>
+        </section>
+
+        <!-- Events Grid Section -->
+        <section class="events-main">
+            <div class="events-grid">
+                <!-- Event Card 1 -->
+                <div class="event-card">
+                    <h3 class="event-card-title">Craft & Design Festival</h3>
+
+                    <img src="images/event-image1.png" alt="Canberra Modern Building 1" class="event-card-image">
+
+                    <ul class="event-card-details">
+                        <li>Canberra Modern Guided Bus Tour – Explore the Design & engineering & Infrastructure Highlights of the National Capital: Bridges, Dams, Lake Burley Griffin</li>
+                        <li>2 November, 10:00am – 1pm</li>
+                        <li>Purpose: Reveal the often overlooked planning and engineering shaping the city</li>
+                    </ul>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="event-card">
+                    <h3 class="event-card-title">Craft & Design Festival</h3>
+
+                    <img src="images/event-image2.png" alt="Canberra Modern Building 2" class="event-card-image">
+
+                    <ul class="event-card-details">
+                        <li>Free Exhibit: Architecture Spectres Canberra 15–26 April26</li>
+                        <li>2A Mugga Way, Red Hill</li>
+                        <li>Monday–Friday, 10am–4pm</li>
+                        <li>Explores Canberra's 20th-century architectural history by research</li>
+                        <li>Features mixed media</li>
+                        <li>Highlights lost buildings and ones at-risk of loss.</li>
+                    </ul>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="event-card">
+                    <h3 class="event-card-title">Canberra Region Heritage Festival</h3>
+
+                    <img src="images/event-image3.png" alt="Canberra Modern Building 3" class="event-card-image">
+
+                    <ul class="event-card-details">
+                        <li>Talk & book launch – The Architecture of Iwan Iwanoff (1950–1986)</li>
+                        <li>Sunday 4 November, 3:30pm–5:00pm</li>
+                        <li>Author: Warren Andersen - focus Iwanoff's design legacy and influence</li>
+                    </ul>
+                </div>
+
+                <!-- Event Card 4 -->
+                <div class="event-card">
+                    <h3 class="event-card-title">Canberra Region Heritage Festival</h3>
+
+                    <img src="images/event-image4.png" alt="Canberra Modern Building 4" class="event-card-image">
+
+                    <ul class="event-card-details">
+                        <li>Tours of Manning Clark House designed by Robin Boyd</li>
+                        <li>13 - 21 April 2024</li>
+                        <li>11am & 2pm</li>
+                        <li>17 Tasmania Circle, Forrest</li>
+                        <li>Includes access to the study where History of Australia was written</li>
+                        <li>Light morning/afternoon tea included. Cost $10 / person</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-nav">
+            <!-- Mobile Footer Navigation -->
+            <div class="footer-nav-mobile">
+                About Us &nbsp;&nbsp;&nbsp; Contact &nbsp;&nbsp;&nbsp; Social &nbsp;&nbsp;&nbsp; Privacy
+            </div>
+
+            <!-- Desktop Footer Navigation -->
+            <div class="footer-nav-desktop">
+                <span>About Us</span>
+                <span>Contact</span>
+                <span>Social</span>
+                <span>Privacy</span>
+            </div>
+        </div>
+
+        <div class="footer-credits">
+            <p>This website was produced by the students in Faculty of Arts & Design,</p>
+            <p>University of Canberra, 2026</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('show');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('mobileMenu');
+            const hamburger = document.querySelector('.hamburger');
+
+            if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
+                menu.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>

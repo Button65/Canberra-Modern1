@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canberra Modern - Explore</title>
-   <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Canberra Modern - Get Involved</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 </head>
 <body>
@@ -52,36 +52,72 @@
 
     <!-- Main Content -->
     <main>
-        <!-- Hero Section -->
-        <section class="explore-hero">
-            <h1 class="explore-heading">Explore Canberra Modern</h1>
+        <!-- Get Involved Hero Section -->
+        <section class="get-involved-hero">
+            <h1 class="get-involved-heading">Get Involved</h1>
 
-            <p class="explore-text">
-                The Mid & Late Century Modern Buildings highlights a curated selection of Canberra's modernist architecture, reflecting the city's strong mid-century development. The list includes both iconic landmarks and lesser-known buildings by leading Australian architects, while also drawing attention to sites at risk of being lost
-            </p>
+            <div class="get-involved-intro">
+                <ul>
+                    <li>Come and meet new people</li>
+                    <li>Member Registration</li>
+                    <li>Volunteer at Events</li>
+                    <li>Donate to support services that raise awareness to protect our heritage buildings.</li>
+                </ul>
+            </div>
         </section>
 
-        <!-- Image Gallery Section -->
-        <div class="gallery-container">
-            <div class="gallery-scroll">
-                <div class="gallery-images">
-                    <img src="images/gallery1.png" alt="Modern building 1" class="gallery-image">
-                    <img src="images/gallery2.png" alt="Modern building 2" class="gallery-image">
-                    <img src="images/gallery3.png" alt="Modern building 3" class="gallery-image">
-                    <img src="images/gallery4.png" alt="Modern building 4" class="gallery-image">
-                    <img src="images/gallery5.png" alt="Modern building 5" class="gallery-image">
-                    <img src="images/gallery6.png" alt="Modern building 6" class="gallery-image">
-                    <img src="images/gallery7.png" alt="Modern building 7" class="gallery-image">
-                    <img src="images/gallery8.png" alt="Modern building 8" class="gallery-image">
-                </div>
+        <!-- Images Section -->
+        <section class="images-section">
+            <!-- Donate Button -->
+            <div class="donate-button-container">
+                <a href="#donate" class="donate-button">
+                    <div class="donate-button-bg">
+                        <span style="opacity: 0; font-size: 14px;">Donate</span>
+                    </div>
+                    <span class="donate-button-text">Donate</span>
+                </a>
             </div>
-        </div>
 
-        <!-- Places to Visit Section -->
-        <section class="places-section">
-            <h2 class="places-heading">Places to Visit</h2>
+            <!-- Images Grid -->
+            <div class="images-grid">
+                <img src="images/building1.png" alt="Heritage Building 1" class="building-image">
+                <img src="images/building2.png" alt="Heritage Building 2" class="building-image">
+                <img src="images/building3.png" alt="Heritage Building 3" class="building-image">
+            </div>
+        </section>
 
-            <img src="images/map.png" alt="Map of places to visit in Canberra" class="places-map">
+        <!-- Contact Form Section -->
+        <section class="form-section">
+            <p class="form-intro">Fill out this form and we'll get back to you ASAP</p>
+
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <!-- Name Field -->
+                <div class="form-field">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Value" required>
+                </div>
+
+                <!-- Surname Field -->
+                <div class="form-field">
+                    <label for="surname" class="form-label">Surname</label>
+                    <input type="text" id="surname" name="surname" class="form-input" placeholder="Value" required>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-field">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Value" required>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-field">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Value" required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
         </section>
     </main>
 
@@ -108,7 +144,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu Toggle -->
+    <!-- JavaScript -->
     <script>
         function toggleMobileMenu() {
             const menu = document.getElementById('mobileMenu');
@@ -124,6 +160,13 @@
                 menu.classList.remove('show');
             }
         });
+
+        // Form submission handler
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for your submission! We will get back to you soon.');
+            event.target.reset();
+        }
     </script>
 </body>
 </html>
