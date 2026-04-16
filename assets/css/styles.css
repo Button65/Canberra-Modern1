@@ -121,7 +121,7 @@ main {
 
 .footer-nav {
   margin-bottom: 1rem;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .footer-nav-mobile {
@@ -133,7 +133,7 @@ main {
 }
 
 .footer-credits {
-  font-size: 32px;
+  font-size: 18px;
   line-height: 1.5;
 }
 

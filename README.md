@@ -11,7 +11,7 @@ This folder contains the traditional HTML5 & CSS3 version of the Canberra Modern
 - `events.html` - Events page with event cards grid
 - `get-involved.html` - Get Involved page with form and images
 - `styles.css` - Universal stylesheet used by all pages
-- `images/` - Directory for all image assets (you need to add your images here)
+- `images/` - Directory for all image assets
 
 ## Features
 
