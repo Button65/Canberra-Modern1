@@ -6,7 +6,7 @@ This folder contains the traditional HTML5 & CSS3 version of the Canberra Modern
 
 ## Files Included
 
-- `home.html` - Home page with hero section and info cards
+- `index.html` - About page with hero section and info cards
 - `explore.html` - Explore page with horizontal scrolling gallery
 - `events.html` - Events page with event cards grid
 - `get-involved.html` - Get Involved page with form and images
