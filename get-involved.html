@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -45,7 +47,8 @@
         <!-- Search Icon -->
         <div class="search-icon">
             <svg viewBox="0 0 60 60" fill="none">
-                <circle cx="30" cy="30" r="28" fill="white" stroke="black" stroke-width="4"/>
+                <circle cx="25" cy="25" r="18" stroke="black" stroke-width="4" />
+                <path d="M38 38 L48 48" stroke="black" stroke-width="4" stroke-linecap="round" />
             </svg>
         </div>
     </header>
@@ -152,7 +155,7 @@
         }
 
         // Close mobile menu when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             const menu = document.getElementById('mobileMenu');
             const hamburger = document.querySelector('.hamburger');
 
@@ -169,4 +172,5 @@
         }
     </script>
 </body>
+
 </html>
