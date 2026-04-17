@@ -2,7 +2,7 @@
 Redesign of Website
 # Canberra Modern - HTML5 & CSS3 Export
 
-This folder contains the traditional HTML5 & CSS3 version of the Canberra Modern website, separate from the React application.
+This folder contains the traditional HTML5 & CSS3 version of the Canberra Modern website.
 
 ## Files Included
 
