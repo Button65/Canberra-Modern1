@@ -81,9 +81,15 @@ Overall, this project strengthened my understanding of responsive web developmen
 # References
 
 Canberra Modern. (2017). Canberra Modern. Canberra Modern. https://canberramodern.com/
+
 caron. (n.d.). Caron, A. (2017). Responsive, Pure CSS Off-Canvas Hamburger Menu. [Review of Caron, A. (2017). Responsive, Pure CSS Off-Canvas Hamburger Menu.]. 
-‌ coyier. (n.d.). CSS Flexbox Layout Guide. [Review of CSS Flexbox Layout Guide.].
-‌ graham. (2024). Media Queries for Standard Devices. [Review of Media Queries for Standard Devices.].
-‌ house. (2024). CSS Grid Layout Guide. [Review of CSS Grid Layout Guide.]. ‌
+
+coyier. (n.d.). CSS Flexbox Layout Guide. [Review of CSS Flexbox Layout Guide.].
+
+graham. (2024). Media Queries for Standard Devices. [Review of Media Queries for Standard Devices.].
+
+house. (2024). CSS Grid Layout Guide. [Review of CSS Grid Layout Guide.]. ‌
+
 walton. (n.d.). Fit to Scale. [Review of Fit to Scale.].
-‌ walton. (n.d.). fluid type [Review of fluid type].
+
+walton. (n.d.). fluid type [Review of fluid type].
