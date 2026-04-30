@@ -1,8 +1,9 @@
 # Canberra Modern
 Redesign of Website
-# Canberra Modern - HTML5 & CSS3 Export
 
-## Files Included
+## Canberra Modern - HTML5 & CSS3
+
+### Files Included
 
 - `index.html` - About page with hero section and info cards
 - `explore.html` - Explore page with horizontal scrolling gallery
@@ -11,7 +12,7 @@ Redesign of Website
 - `styles.css` - Universal stylesheet used by all pages
 - `images/` - Directory for all image assets
 
-## Features
+### Features
 
 ✅ Fully responsive (Mobile, Tablet, Desktop)
 ✅ Modern design with gradients and layered shadows
@@ -78,7 +79,7 @@ There were also several challenges throughout the project. Managing assets requi
 
 Overall, this project strengthened my understanding of responsive web development and highlighted the importance of planning, testing, and adaptability in creating effective digital solutions. 
 
-# References
+## References
 
 Canberra Modern. (2017). Canberra Modern. Canberra Modern. https://canberramodern.com/
 
